@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-tac-toe</title>
+    <link rel="stylesheet" href="css/style.css"\>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap" rel="stylesheet">
+  </head>
+<body>
+    <video autoplay muted loop id="backgVideo">
+    <source src="https://i.gifer.com/65u.mp4" type="video/mp4">
+      </video>
+      
+    <div class="content">
+    <h1>TIC-TAC-TOE</h1>  
+    <h2>SELECT PLAYER</h2>
+
+   <p><button class="player1" id="btn">PLAYER 1</button><button class="player2" id="btn">PLAYER 2</button></p>
+   <p><video autoplay muted loop id="seaUrchin"><source src="https://i.gifer.com/9YsF.mp4" type="video/mp4"></video> <video autoplay muted loop id="seaTurtle"><source src="https://i.gifer.com/75zz.mp4" type="video/mp4"></video></p>
+    
+    <div class="grid-container">
+        <div class="grid-item" grid-item-index="1"></div>
+        <div class="grid-item" grid-item-index="2"></div>
+        <div class="grid-item" grid-item-index="3"></div>
+        <div class="grid-item" grid-item-index="4"></div>
+        <div class="grid-item" grid-item-index="5"></div>
+        <div class="grid-item" grid-item-index="6"></div>
+        <div class="grid-item" grid-item-index="7"></div>
+        <div class="grid-item" grid-item-index="8"></div>
+        <div class="grid-item" grid-item-index="9"></div>
+      </div>
+      <h3 class="grid--status"></h3>
+      <button class="grid--reset">RESET</button>
+      <audio autoplay loop id ="audiobackg"><source src="Retro - Inner Circle - Sweat.mp3" type="audio/mpeg"></audio>
+      
+    </div>
+
+     
+</body>
+<script src="tic-tac-toe.js"></script>
+</html>

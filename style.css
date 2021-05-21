@@ -1,0 +1,99 @@
+
+#backgVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+h1{
+  font-family: 'Teko', sans-serif;
+  
+}
+h2{
+  font-family: 'Teko', sans-serif;
+}
+
+h3{
+  font-family: 'Teko', sans-serif;
+}
+.content {
+  position: absolute;
+  bottom: 0;
+  color:rgba(248, 247, 196, 0.8);
+  width: 100%;
+  padding: 20px;
+  align-content:center;
+  
+}
+
+
+.grid-container{
+        display: grid;
+        height: 200px;
+        align-content: center;
+        grid-template-columns: auto auto auto;
+        grid-gap: 10px;
+        background-color:rgb(173, 173, 52);
+        padding: 10px;
+        border-radius: 10px;
+      }
+      
+      .grid-container > div {
+        background-color: rgba(248, 247, 196, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+        border-radius: 10px;
+      }
+.player1{
+  background-color:rgb(173, 173, 52);
+  color:rgba(248, 247, 196, 0.8);
+  border-radius: 10px;
+  border-color:rgba(248, 247, 196, 0.8);
+  font-family: 'Teko', sans-serif;
+
+}
+
+.player2{
+  background-color:rgb(173, 173, 52);
+  border-radius:10px;
+  border-color:rgba(248, 247, 196, 0.8);
+  font-family: 'Teko', sans-serif;
+  color:rgba(248, 247, 196, 0.8);
+}
+
+#seaUrchin {
+  width: 30%;
+    height: 50px;
+    object-fit: cover;
+    z-index: -100;
+  border-radius: 10px;
+  display:inline-block
+}
+#seaUrchin > video {
+  min-width: 50%;
+  min-height: 50%;
+}
+
+#seaTurtle {
+    width: 30%;
+    height: 50px;
+    object-fit: cover;
+    z-index: -100;
+    border-radius: 10px;
+    display:inline-block
+}
+
+
+
+
+
+
+.grid--reset{
+  border-radius:10px;
+  border-color:rgba(248, 247, 196, 0.8);
+  background-color:rgb(173, 173, 52);
+  color:rgba(248, 247, 196, 0.8);
+  font-family: 'Teko', sans-serif;
+}
